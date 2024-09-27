@@ -1,0 +1,66 @@
+.light {
+  background-color: #bcbaba;
+  color: #191719;
+}
+.light body {
+  background-color: #bcbaba;
+  color: #191719;
+}
+.light .check-btn {
+  color: #191719;
+}
+.light .navbar {
+  background-color: #191719;
+}
+.light .about-img {
+  box-shadow: 0px 0px 125px 5px #191719, 0px 0px 55px 5px #00aaa3;
+}
+.light .flip-card-front {
+  color: #191719;
+}
+.light .laptop {
+  background: url("images/laptop-light.jpg") no-repeat;
+  background-size: cover;
+}
+.light .app {
+  background: url("images/js-light.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.light .game {
+  background: url("images/react-light.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.light .flip-card-back {
+  background-color: #bcbaba;
+}
+.light .flip-card a {
+  color: #191719;
+}
+.light .flip-card a:hover {
+  color: #00aaa3;
+  text-shadow: 0px 0px 15px #bcbaba;
+}
+.light .links:hover {
+  text-shadow: 0 0 15px #191719;
+}
+.light .send-btn {
+  color: #191719;
+}
+.light footer a {
+  color: #191719;
+}
+.light footer a:hover {
+  color: #00aaa3;
+  text-shadow: 0px 0px 15px #bcbaba;
+}
+.light .login:hover,
+.light input:hover,
+.light input:focus,
+.light textarea:hover,
+.light textarea:focus,
+.light .send-btn:hover {
+  outline: 1px solid #191719;
+  box-shadow: 0 0 10px #191719, 0 0 15px #00aaa3;
+}/*# sourceMappingURL=light-mode.css.map */

@@ -1,0 +1,66 @@
+@import "variables.scss";
+
+.light{
+    background-color: $light;
+    color: $dark;
+    body{
+      background-color: $light;
+      color: $dark;
+    }
+    .check-btn{
+      color: $dark;
+    }
+    .navbar{
+      background-color: $dark;
+    }
+    .about-img{
+      box-shadow: 0px 0px 125px 5px $dark, 0px 0px 55px 5px $green;
+    }
+    .flip-card-front{
+      color: $dark;
+    }
+    .laptop {
+      background: url("images/laptop-light.jpg") no-repeat;
+      background-size: cover;
+    }
+    .app{
+      background: url("images/js-light.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .game{
+      background: url("images/react-light.png") no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .flip-card-back{
+      background-color: $light;
+    }
+    .flip-card a{
+      color: $dark;
+    }
+    .flip-card a:hover{
+      @include green-hover()
+    }
+    .links:hover {
+      text-shadow: 0 0 15px $dark;
+    }
+    .send-btn{
+      color: $dark;
+    }
+    footer a{
+      color: $dark;
+    }
+    footer a:hover{
+      @include green-hover()
+    }
+    .login:hover,
+  input:hover,
+  input:focus,
+  textarea:hover,
+  textarea:focus,
+  .send-btn:hover {
+    outline: 1px solid $dark;
+    box-shadow: 0 0 10px $dark, 0 0 15px $green;
+  }
+  }

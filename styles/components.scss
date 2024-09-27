@@ -1,0 +1,32 @@
+@import "variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: $dark;
+    color: $light;
+  }
+  hr {
+    border: $double-border;
+  }
+  span {
+    color: $green;
+  }
+  #mode-toggler{
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+  }
+  a,
+  .navbar-brand,
+  .nav-link {
+    color: $light;
+  }
+  a:hover,
+  .navbar-brand:hover,
+  .nav-link:hover {
+    @include green-hover();
+  }

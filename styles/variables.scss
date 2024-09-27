@@ -1,0 +1,11 @@
+//Variables
+$dark: #191719;
+$light: #bcbaba;
+$green: #00aaa3;
+$single-border: 1px solid $green;
+$double-border: 2px double $green;
+
+@mixin green-hover {
+  color: $green;
+  text-shadow: 0px 0px 15px $light;
+}
