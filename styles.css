@@ -54,6 +54,11 @@ a:hover,
   padding: 20% 0 0 15%;
 }
 
+.cv-link {
+  text-decoration: none;
+  color: #191719;
+}
+
 .navbar {
   border-bottom: 2px double #00aaa3;
 }
